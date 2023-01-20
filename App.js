@@ -76,6 +76,7 @@ function BottomTabsRoot({ navigation }) {
               const isFocused = state.index === index;
               return (
                 <Pressable
+                  key={index}
                   onPress={() => {
                     navigation.navigate({
                       name: state.routes[index].name,
