@@ -45,7 +45,7 @@ const MyItems = ({ style }) => {
             <Text
               style={[styles.header, styles.subheadTypo, styles.headerLayout]}
             >
-              Nama product 1000000
+              Yooyoy 
             </Text>
             <Text style={[styles.subhead, styles.subheadTypo]}>Stok: 10</Text>
             <View style={[styles.subheadParent, styles.contentFlexBox]}>
